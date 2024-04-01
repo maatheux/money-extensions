@@ -4,6 +4,27 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    
+    <PackageId>MoneyExtensionsMaatheux</PackageId>
+    <Version>1.0.0</Version>
+    <!--    <icon></icon>-->
+    <License>MIT</License>
+    <Authors>Matheus Lima</Authors>
+    <Company>maatheux</Company>
+    <PackageDescription>Convert decimal to intenger</PackageDescription>
+    <Description>Convert decimal to intenger</Description>
+    <RepositoryUrl>https://github.com/maatheux/money-extensions</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/maatheux/money-extensions</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.jpeg</PackageIcon>
+    <PackageTags>money;int;decimal;converter</PackageTags>
+    <!--    <ReleaseNotes>Breaking changes from v1.5, please, visit our GitHub before migrating.</ReleaseNotes>-->
+    <Title>MoneyExtension</Title>
+    <Summary>Extension to Convert decimal to intenger</Summary>
   </PropertyGroup>
+  
+  <ItemGroup>
+    <None Include="../Media/icon.jpeg" Pack="true" PackagePath="/" />
+  </ItemGroup>
 
 </Project>
