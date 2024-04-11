@@ -4,7 +4,7 @@ namespace MoneyExtension.Test;
 public class MoneyExtensionTest
 {
     [TestMethod]
-    public void ShouldConverDecimalToInt()
+    public void ShouldConvertDecimalToInt()
     {
         decimal value = 279.98m;
         int cents = value.ToCents();
